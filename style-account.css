@@ -1,0 +1,59 @@
+*{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 1140px;
+}
+
+.personal-account{
+    background: url(/img/background-section4.png);
+    min-height: 964px;
+}
+
+.logo{
+    display: flex;
+    float: left;
+    transform: translate(0px, -17px);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-left: 415px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.profile-name{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #5C17CD;
+    border-radius: 7px;
+    background-color: transparent;
+    margin-left: 100px;
+    width: 100px;
+    height: 25px;
+}
+
