@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section1">
+        <div class="container" id="mainContainer">
+            <div class="header">
+                <div class="logo">
+                    <img style="height: 70px;" src="/img/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#section5">Готовые решения</a></li>
+                        <li><a href="#tarif">Тарифы</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                    <button class="buttonEnter" id="openFormSignUp">Войти</button>
+                </div>
+                <div class="main">
+                    <div class="mainBigText">ОБЛАЧНОЕ <br>ВИДЕОНАБЛЮДЕНИЕ<br>ПОД ВАШИ ЦЕЛИ</div>
+                    <div class="mainText" id="mainText">Видео - контроль на любом устройстве в прямом эфире. <br>С возможностью хранения записи вплоть до 7 дней</div>
+                </div>
+                <div class="mainImage">
+                    <div class="image-container" id="imageContainer">
+                        <img class="img1" src="/img/1_slide.png" alt="">
+                        <img src="/img/2_slide.png" alt="">
+                        <img src="/img/3_slide.png" alt="">
+                    </div>
+                </div>
+
+                <div class="scroll-buttons">
+                    <button class="skrollImages" onclick="scrollImages(-1)"> &lt; </button>
+                    <button class="skrollImages" onclick="scrollImages(1)"> &gt; </button>
+                </div>
+
+                <div class="buttonImg">
+                    <button class="buttonIMg" id="openForm">ОСТАВИТЬ ЗАЯВКУ</button>
+                </div>
+            </div>
+
+            <!-- Форма для заявки -->
+            <div class="popup-form" id="popupForm">
+                <div class="popup-content">
+                    <span class="close-button" onclick="closeFormRequest()">&times;</span>
+                    <h2 class="headerform">Оставить заявку</h2>
+                    <form>
+                        <input class="input-popup" type="text" placeholder="Имя"><br>
+                        <input class="input-popup" type="email" placeholder="Email"><br>
+                        <textarea class="textarea-popup" placeholder="Сообщение"></textarea><br>
+                        <button class="button-popup" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Форма для входа -->
+            <div class="popup-form-SignUp" id="popup-form-SignUp">
+                <div class="popup-SignUp-content">
+                    <span class="close-button" onclick="closeFormSignUp()">&times;</span>
+                    <span class="headerSignUp">Войти в аккаунт</span><br>
+                    <form>
+                        <input class="input-popup-SignUp" type="text" placeholder="Логин"><br>
+                        <input class="input-popup-SignUp" type="password" placeholder="Пароль"><br>
+                        <a class="forgetPassword" href="#">Забыли пароль?</a><br>
+                        <button class="button-popup-SignUp"><a class="LK-SignUp" href="personal-account.html">Войти</a></button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <div class="headerSection2">Мы осуществляем <br> следующие услуги</div>
+            <div class="textSection2">Кроме этого техническая поддержка всегда проконсультирует Вас по любым вопросам,
+            а также произведет удаленную диагностику вашей системы по первому запросы и в самые кротчайшие сроки  </div>
+
+            <div class="services">
+                <div class="block1">
+                    <div class="ImgBlock1"><img src="/img/1photo.png" width="200px" height="200px"></div>
+                    <div class="nameBlock1">Монтаж</div>
+                    <div class="textBlock1">Произведем монтаж камер видеонаблюдения у Вас дома, на работе, даче или просто во дворе </div>
+                </div>
+
+                <div class="block2">
+                    <div class="ImgBlock2"><img src="/img/2photo.png" width="200px" height="200px"></div>
+                    <div class="nameBlock2">Обслуживание</div>
+                    <div class="textBlock2">Если у Вас возникнут трудности мы дадим консультацию, а при необходимости приедем к вам на объект</div>
+                </div>
+
+                <div class="block3">
+                    <div class="ImgBlock3"><img src="/img/3photo.png" width="200px" height="200px"></div>
+                    <div class="nameBlock3">Личный кабинет</div>
+                    <div class="textBlock3">Смотрите трансляцию онлайн, а если не успели мы храним записи 7 дней, просто зайдите в архив</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <div class="header-section3">Скачайте наше приложение <br> в AppStore и Google Play</div>
+            <div class="application-App">
+                <div class="application1">
+                    <div class="check-mark"><img src="/img/chekmark.png" alt="" height="18px" align="left"></div>
+                    <div class="text-application1">cмотрите онлайн-трансляцию с Ваших видеокамер</div>
+                </div>
+                <div class="application1">
+                    <div class="check-mark"><img src="/img/chekmark.png" alt="" height="18px" align="left"></div>
+                    <div class="text-application1">надёжно храните архив в облаке от 7 дней и выше</div>
+                </div>
+                <div class="application1">
+                    <div class="check-mark"><img src="/img/chekmark.png" alt="" height="18px" align="left"></div>
+                    <div class="text-application1">получите доступ к архиву в режиме онлайн</div>
+                </div>
+                <div class="application1">
+                    <div class="check-mark"><img src="/img/chekmark.png" alt="" height="18px" align="left"></div>
+                    <div class="text-application1">сохраняйте архив на Ваши устройства</div>
+                </div>
+            </div>
+            <div class="download">
+                <div class="google-play-icon"><a href=""><img src="/img/google-play.png" alt="" height="50px"></a></div>
+                <div class="app-store-icon"><a href=""><img src="/img/app-store.png" alt="" height="47px"></a></div>
+            </div>
+            <div class="photo-section3"><img src="/img/section3.png" alt="" height="500px"></div>
+        </div>
+    </section>
+    
+    <section class="section4" id="tarif">
+        <div class="container">
+            <div class="header-section4">Выберите тариф</div>
+            <div class="block-tarif">
+                <div class="tarif-block-1">
+                    <div class="name-tarif">Стандарт</div>
+                    <div class="price-tarif">250 ₽ <span class="duration-tarif-text">/месяц</span></div>
+                    <div class="description-tarif">Запись архива и хранение 7 дней. Подключение 1 камеры. Онлайн доступ к камере</div>
+                    <div class="button-tarif">
+                        <button class="tarifButton">Оставить заявку</button>
+                    </div>
+                </div>
+                <div class="tarif-block-2">
+                    <div class="name-tarif">Оптимальный</div>
+                    <div class="price-tarif">650 ₽ <span class="duration-tarif-text">/месяц</span></div>
+                    <div class="description-tarif">Запись архива и хранение в 30 дней. Подключение 1 камеры. Онлайн доступ к камере</div>
+                    <div class="button-tarif">
+                        <button class="tarifButton">Оставить заявку</button>
+                    </div>
+                </div>
+                <div class="tarif-block-3">
+                    <div class="name-tarif">Бизнес</div>
+                    <div class="price-tarif">950 ₽ <span class="duration-tarif-text">/месяц</span></div>
+                    <div class="description-tarif">Запись архива и хранение 60 дней. Подключение 1 камеры. Онлайн доступ к камере</div>
+                    <div class="button-tarif">
+                        <button class="tarifButton">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5" id="section5">
+        <div class="container">
+            <div class="header-section5">Готовые решения для подключения</div>
+            <div class="general-block-cameras">
+                <div class="block-camera-1">
+                    <div><img class="img-camera" src="/img/camera.png" alt="" height="180px"></div>
+                    <div class="camera-task">Для дома</div>
+                    <div class="name-camera">Цифровая IP камера для подключения в облачный сервис EasyCam. </div>
+                    <div class="description-camera">Разрешение: 1920*1080@25fps <br> Объектив: 2.8mm lens <br> Гарантия : 1 год </div>
+                </div>
+                <div class="block-camera-1">
+                    <div><img class="img-camera" src="/img/camera.png" alt="" height="180px"></div>
+                    <div class="camera-task">Для бизнеса</div>
+                    <div class="name-camera">Цифровая IP камера для подключения в облачный сервис EasyCam. </div>
+                    <div class="description-camera">Разрешение: 1920*1080@25fps <br> Объектив: 2.8mm lens <br> Гарантия : 1 год </div>
+                </div>
+                <div class="block-camera-1">
+                    <div><img class="img-camera" src="/img/camera.png" alt="" height="180px"></div>
+                    <div class="camera-task">Для улицы</div>
+                    <div class="name-camera">Цифровая IP камера для подключения в облачный сервис EasyCam. </div>
+                    <div class="description-camera">Разрешение: 1920*1080@25fps <br> Объектив: 2.8mm lens <br> Гарантия : 1 год </div>
+                </div>
+            </div>
+            <div><a href="" class="link-catalog-cameras">Перейти в каталог ></a></div>
+        </div>
+    </section>
+    <section class="section6" id="news">
+        <div class="container">
+            <div class="header-section6">Новости компании</div>
+            <div class="news">
+                <div class="block-news-1">
+                    <div class="name-news-1">
+                        <div class="name-news">Запуск мобильного приложения</div>
+                    </div>
+                    <div class="info-news-1">
+                        <div class="date-news">07.02.20</div>
+                        <div class="text-news">С сегоднешнего дня наш сервис стал еще удобнее благодаря приложениям для iOS и Android ...</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="block-news-2">
+                    <div class="name-news-2">
+                        <div class="name-news-t">Подключение под ключ в Воронеже</div>
+                    </div>
+                    <div class="info-news">
+                        <div class="date-news">07.02.20</div>
+                        <div class="text-news">Монтаж и подключение системы видеонаблюдения под ключ ...</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="block-news-3">
+                    <div class="name-news-2">
+                        <div class="name-news">Мартовская акция</div>
+                    </div>
+                    <div class="info-news-2">
+                        <div class="date-news">07.02.20</div>
+                        <div class="text-news">Подключение интернета на особых условиях. Полный безлимитный интернет ...</div>
+                    </div>
+                </div>
+            </div>
+            <div><a href="" class="link-news-all">Показать все ></a></div>
+        </div>
+    </section>
+    <section class="footer" id="contacts">
+        <div class="container">
+            <div class="blocks-footer">
+                <div class="left-block">
+                    <div class="contacts">Контакты</div>
+                    <div class="phone-number">+7 (473) 257-31-91</div>
+                    <a href="" class="download-requisites">Скачать реквизиты</a>
+                    <div class="download-app">
+                        <div class="google-play"><a href=""><img src="/img/google-play.png" alt="" height="50px"></a></div>
+                        <div class="app-store"><a href=""><img src="/img/app-store.png" alt="" height="50px"></a></div>
+                    </div>
+                    <div class="firma">Copyright  ©  2013 - 2020 EASYCAM - облачное видеонаблюдение</div>
+                </div>
+                <div class="footer-link">
+                    <div class="header-link-footer">Полезные ссылки</div>
+                    <div><a href="" class="link-footer">На главную</a></div>
+                    <div><a href="" class="link-footer">Наши услуги</a></div>
+                    <div><a href="" class="link-footer">Тарифы</a></div>
+                    <div><a href="" class="link-footer">Готовые решения</a></div>
+                    <div><a href="" class="link-footer">Новости компании</a></div>
+                    <div><a href="" class="link-footer">Личный кабинет</a></div>
+                </div>
+                <div class="footer-form">
+                    <div class="header-footer-form">Оставьте заявку на подключение</div>
+                    <div><input class="input-phone-number-footer" type="text" placeholder="Ваш телефон"></div>
+                    <div><input class="input-name-footer" type="text" placeholder="Ваше имя"></div>
+                    <div><button class="footer-button">Оставить заявку</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
